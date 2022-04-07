@@ -22,3 +22,5 @@ _Para la ejecución de pruebas en entorno grafico_
 ```
 npx cypress open
 ```
+
+
