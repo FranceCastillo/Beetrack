@@ -1,0 +1,288 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Buy of product with registered user",
+    "line": 2,
+    "id": "buy-of-product-with-registered-user",
+    "tags": [
+      {
+        "name": "@Registration",
+        "line": 1
+      },
+      {
+        "name": "@CreateWhishlist",
+        "line": 1
+      },
+      {
+        "name": "@BuyProduct",
+        "line": 1
+      }
+    ],
+    "uri": "BuyProduct.feature",
+    "elements": [
+      {
+        "id": "buy-of-product-with-registered-user;buy-of-product",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Buy of Product",
+        "tags": [
+          {
+            "name": "@Registration",
+            "line": 1
+          },
+          {
+            "name": "@CreateWhishlist",
+            "line": 1
+          },
+          {
+            "name": "@BuyProduct",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user enters Organic Challenge",
+            "result": {
+              "status": "passed",
+              "duration": 2748000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "The home page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 270000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The user clicks on \"Sign In\"",
+            "result": {
+              "status": "passed",
+              "duration": 3001000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The user see the form \"Login or Register\"",
+            "result": {
+              "status": "passed",
+              "duration": 56000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "The user enter the field \"email\", \"beetrack_test@mailinator.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 706000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "The user activates the checkbox \"login\",\"Login to your account\"",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "The user enter the field \"contraseña\", \"37Kz0071\" para \"Login\"",
+            "result": {
+              "status": "passed",
+              "duration": 595000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "The user clicks on el botón \"Login\"",
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The Account view is displayed and the user should see the message \"Welcome to your account. Use the menu below to navigate around your account, view your orders, update your address or send us a message\"",
+            "result": {
+              "status": "passed",
+              "duration": 3161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "The user clicks on \"Back to Store\"",
+            "result": {
+              "status": "passed",
+              "duration": 2444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 16,
+            "name": "The home page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 428000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "The user clicks on el menú \"Store\"",
+            "result": {
+              "status": "passed",
+              "duration": 1849000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "The user selects the option \"Organic Vegetables\"",
+            "result": {
+              "status": "passed",
+              "duration": 4964000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "The user clicks on the product \"Lettuce\"",
+            "result": {
+              "status": "passed",
+              "duration": 6324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "The user select \"2\" units",
+            "result": {
+              "status": "passed",
+              "duration": 1786000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "The user clicks on \"Add to Cart\"",
+            "result": {
+              "status": "passed",
+              "duration": 2440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "The modal is displayed \"Product Successfully Added to Cart\"",
+            "result": {
+              "status": "passed",
+              "duration": 1692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "The user select \"Proceed to checkout\"",
+            "result": {
+              "status": "passed",
+              "duration": 3946000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "The user clicks on \"Checkout\"",
+            "result": {
+              "status": "passed",
+              "duration": 3701000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "The user clicks on \"Select\"",
+            "result": {
+              "status": "passed",
+              "duration": 1853000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "The user clicks on \"Continue to Payment\"",
+            "result": {
+              "status": "passed",
+              "duration": 3247000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "The user accepts the terms and conditions",
+            "result": {
+              "status": "passed",
+              "duration": 871000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 31,
+            "name": "The user selects the mode of delivery \"Pay by Cash on Delivery\"",
+            "result": {
+              "status": "passed",
+              "duration": 406000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "The user clicks on \"Complete Order\"",
+            "result": {
+              "status": "passed",
+              "duration": 457000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

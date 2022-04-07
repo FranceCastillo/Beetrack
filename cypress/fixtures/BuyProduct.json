@@ -1,0 +1,14 @@
+{
+    "storeMenu": "#header2_inner > #header2_nav > .categories > .categories_title > span",
+    "categories_hidden": "#header2_inner > #header2_nav > .categories > .categories_container", 
+    "categories": "#header2_inner > #header2_nav > .categories > .categories_container > .single_category_item > span",
+    "increaseBtn": ".increase",
+    "modal": "#softadd-modal-content",
+    "proceedBth": ".success",
+    "payBtn": "#btnConfirmShipping > .button",
+    "chekTerms": "#terms_acceptance",
+    "checkPay": ".payment_item_top",
+    "selectBtn": ".saved_address_item_select",
+    "chekHidden": "#payment",
+    "completeBtn": "input[value='Continue to Payment']"
+}

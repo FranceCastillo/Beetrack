@@ -1,0 +1,21 @@
+{
+    "header": "#header1_welcome_message",
+    "logo": "#logo",
+    "sing_in_Btn": "#account",
+    "title_login": "#welcome",
+    "input_email": "#account_login_register_email",
+    "input_hidden": "#account_login_register_address",
+    "input_password_create": "#account_login_register_register_password",
+    "input_password_login": "#account_login_register_login_password",
+    "firstName": "#account_address_fname",
+    "lastName": "#account_address_lname",
+    "addresLine1": "#account_address_address1",
+    "city": "#account_address_city",
+    "county": "#shipping_county",
+    "postCode": "#shipping_postcode",
+    "telephone": "#account_address_telephone",
+    "check": "div.account_login_register_which",
+    "loginBtn": "#account_login_register_button_login",
+    "register": "#add_address_button",
+    "welcome_message": ".welcome_message"
+}

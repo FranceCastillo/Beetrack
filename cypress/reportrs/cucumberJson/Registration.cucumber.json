@@ -1,0 +1,217 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Registration",
+    "line": 2,
+    "id": "registration",
+    "tags": [
+      {
+        "name": "@Registration",
+        "line": 1
+      }
+    ],
+    "uri": "Registration.feature",
+    "elements": [
+      {
+        "id": "registration;enter-email-and-password",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Enter email and password",
+        "tags": [
+          {
+            "name": "@Registration",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user enters Organic Challenge",
+            "result": {
+              "status": "passed",
+              "duration": 1800000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "The home page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The user clicks on \"Sign In\"",
+            "result": {
+              "status": "passed",
+              "duration": 1068000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The user see the form \"Login or Register\"",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "The user enter the field \"email\", \"test1111@mailinator.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 450000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "The user activates the checkbox \"register\",\"Create an account\"",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "The user enter the field \"contraseña\", \"37Kz2220071\" para \"Create\"",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "The user clicks on el botón \"Continue\"",
+            "result": {
+              "status": "passed",
+              "duration": 122000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "registration;complete-the-form",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Complete the form",
+        "tags": [
+          {
+            "name": "@Registration",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "The user enter the field \"Fist Name\", \"Maria\"",
+            "result": {
+              "status": "passed",
+              "duration": 249000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "The user enter the field \"Last Name\", \"Perez\"",
+            "result": {
+              "status": "passed",
+              "duration": 213000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "The user enter the field \"Address Line 1\", \"Segunda Avenida 2220\"",
+            "result": {
+              "status": "passed",
+              "duration": 391000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "The user enter the field \"City Town\", \"Santiago\"",
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "The user enter the field \"County\", \"Chile\"",
+            "result": {
+              "status": "passed",
+              "duration": 217000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "The user enter the field \"Post/Zip Code\", \"1235\"",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "The user enter the field \"Telephone\", \"98567845\"",
+            "result": {
+              "status": "passed",
+              "duration": 256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "The user clicks on el botón \"Register\"",
+            "result": {
+              "status": "passed",
+              "duration": 109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "The Account view is displayed and the user should see the message \"Welcome to your account. Use the menu below to navigate around your account, view your orders, update your address or send us a message\"",
+            "result": {
+              "status": "passed",
+              "duration": 3082000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,210 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Whishlist creation with registered user",
+    "line": 2,
+    "id": "whishlist-creation-with-registered-user",
+    "tags": [
+      {
+        "name": "@Registration",
+        "line": 1
+      },
+      {
+        "name": "@CreateWhishlist",
+        "line": 1
+      }
+    ],
+    "uri": "CreateWhishlist.feature",
+    "elements": [
+      {
+        "id": "whishlist-creation-with-registered-user;product-search",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Product search",
+        "tags": [
+          {
+            "name": "@Registration",
+            "line": 1
+          },
+          {
+            "name": "@CreateWhishlist",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "The user enters Organic Challenge",
+            "result": {
+              "status": "passed",
+              "duration": 3658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "The home page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "The user clicks on \"Sign In\"",
+            "result": {
+              "status": "passed",
+              "duration": 2559000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "The user see the form \"Login or Register\"",
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "The user enter the field \"email\", \"beetrack_test@mailinator.com\"",
+            "result": {
+              "status": "passed",
+              "duration": 556000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "The user activates the checkbox \"login\",\"Login to your account\"",
+            "result": {
+              "status": "passed",
+              "duration": 119000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 12,
+            "name": "The user enter the field \"contraseña\", \"37Kz0071\" para \"Login\"",
+            "result": {
+              "status": "passed",
+              "duration": 332000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "The user clicks on el botón \"Login\"",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "The Account view is displayed and the user should see the message \"Welcome to your account. Use the menu below to navigate around your account, view your orders, update your address or send us a message\"",
+            "result": {
+              "status": "passed",
+              "duration": 3077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "The user clicks on \"Back to Store\"",
+            "result": {
+              "status": "passed",
+              "duration": 1139000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "The home page is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 72000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "The user enter \"Tomatoes\" in the search field",
+            "result": {
+              "status": "passed",
+              "duration": 3325000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "The user clicks on the product \"Tomatoes\"",
+            "result": {
+              "status": "passed",
+              "duration": 4656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "The product detail is shown",
+            "result": {
+              "status": "passed",
+              "duration": 1066000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "The user clicks on \"Add To Wishlist\"",
+            "result": {
+              "status": "passed",
+              "duration": 200000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "The product is updated to \"Remove From Wishlist\"",
+            "result": {
+              "status": "passed",
+              "duration": 4089000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "The user clicks on \"Remove From Wishlist\"",
+            "result": {
+              "status": "passed",
+              "duration": 206000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

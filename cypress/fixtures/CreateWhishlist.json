@@ -1,0 +1,8 @@
+{
+    "inputSearch": "#txtQuickSearch",
+    "seachBtn": "button[aria-label=search]",
+    "product": "article[class='browse_product_item product_item']",
+    "tabDescription": "#tab_nav_item_description",
+    "wishlistRemoved": "#wishlist_added_html > a",
+    "form": "form[action='https://automationstore.onlineweb.shop/index.aspx?pageid=EAEXl']"
+}
